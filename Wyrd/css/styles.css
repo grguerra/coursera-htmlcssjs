@@ -1,0 +1,145 @@
+#logoteste {
+	width: 20%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+div.item{
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.artist {
+  display: inline-block;
+}
+
+#menu {
+  position: fixed;
+  left: 0;
+  top: 15%;
+  width: 8em;
+  margin-top: -2.5em;
+  line-height: 2em;
+}
+
+figure { 
+    display: inline-table;
+}
+
+figcaption {
+  max-width: 270px;
+  font-size: 1.25em;
+  margin-bottom: 20px;
+}
+
+.Title {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.on {
+color:#b1212d !important;
+  }
+
+p#info {
+  text-align: center;
+  font-size: 3em;
+  color:white;
+}
+
+ul {
+	list-style-type: none;
+	font-size: 1.3em;
+}
+
+body {
+    background-image: url("bgtest.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+
+div#box1 {
+  height: 500px;
+  width: 1000px;
+  background-color: white;
+  margin:auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+div#box2 {
+  width: 1000px;
+  background-color: white;
+  text-align:center; 
+  max-height: 1000px;
+  display: inline-block;
+
+}
+
+img.artist {
+  margin-top:20px;
+  margin-right: 20px;
+}
+
+div#contabt {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+p#about {
+  font-size: 1.5em;
+  margin-right: 10px;
+  margin-top: 25px;
+  margin-left: 10px;
+} 
+
+img#aboutimg {
+  margin-top: 25px;
+}
+
+
+i#links {
+  color: white;
+  font-size: 5em;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+i#links:hover {
+  color:#b1212d;
+}
+
+div#linkc {
+  margin: auto;
+  height: 75px;
+  width: 300px;
+  text-align:center;
+}
+
+a, a:active, a:focus {
+outline: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#b1212d;
+}
+
+a:link {
+  color:white;
+}
+
+a:active {
+    text-decoration: none;
+}
