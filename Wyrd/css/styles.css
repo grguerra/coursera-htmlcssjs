@@ -1,5 +1,5 @@
 #logoteste {
-	width: 20%;
+	width: 100%;
 	height: auto;
 	display: block;
 	margin-left: auto;
@@ -56,9 +56,28 @@ ul {
 	font-size: 1.3em;
 }
 
+.galint {
+  width: auto;
+}
+
+a.artlink {
+  pointer-events:initial!important;
+  color: #000!important;
+}
+
+form.formcont {
+  pointer-events: initial;
+}
+
+a.artlink:hover {
+    text-decoration: none!important;
+    color:#b1212d!important;
+}
+
 body {
-    background-image: url("bgtest.png");
-    background-repeat: no-repeat;
+    /*background-image: url("crossed_stripes_@2X.png");*/
+    background-color: #000;
+    background-image: url("wyrd.png");
     background-attachment: fixed;
     font-family: 'Open Sans Condensed', sans-serif;
     letter-spacing: 2px;
@@ -91,6 +110,7 @@ div#contabt {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  pointer-events: none;
 }
 
 p#about {
